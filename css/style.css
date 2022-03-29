@@ -1,0 +1,149 @@
+table, th, td {
+    border: 1px solid dimgray;
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+h1, p {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+    background-color: #ffffb3;
+}
+
+.title {
+    color: red;
+
+}
+
+.inputLabel {
+    color: #0033cc;
+}
+
+.buttonC{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e68a00;
+    color: #e68a00;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; 
+    width: 50%;
+    border-radius: 10px;
+}
+
+.buttonC:hover{
+    color: white;
+    background-color: #ffa31a;
+}
+
+.buttonE{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e6e600;
+    color: #e6e600;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; 
+    width: 90%;
+    border-radius: 10px;
+    
+}
+
+.buttonE:hover{
+    color: white;
+    background-color: #ffff1a;
+}
+
+.buttonH{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; 
+    width: 5%;
+    border-radius: 80px;
+    
+}
+
+.buttonH:hover{
+    color: white;
+    background-color: #ffd633;
+}
+
+.result {
+    font-size: 50px;
+    color: red;
+}
+
+/* SPIN */
+
+.spin:hover{
+    animation: spin 500ms ease-out 150ms;
+}
+  
+@keyframes spin {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+/* FILL */
+
+/*
+.fill:active{
+    color: white;
+}
+
+.fill{
+    position: relative;
+    background-color: transparent;
+    z-index: 1;
+    transition: 200ms ease-out;
+}
+
+.fill::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    background-color: red;
+    z-index: -1;
+   
+    transition: 200ms ease-out;
+}
+
+.fill:active::before{
+    right: 0%;
+}
+
+*/
